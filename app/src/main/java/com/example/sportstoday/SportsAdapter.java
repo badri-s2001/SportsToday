@@ -12,10 +12,12 @@ import androidx.annotation.NonNull;
 
 import com.squareup.picasso.Picasso;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.TimeZone;
 
 public class SportsAdapter extends ArrayAdapter<Sports>
 {
@@ -48,6 +50,7 @@ public class SportsAdapter extends ArrayAdapter<Sports>
 
         String date = currentSport.getTime();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+        sdf.setTimeZone(TimeZone.getTimeZone("IST"));
         SimpleDateFormat sdf1 = new SimpleDateFormat("h:mm a");
         Date parseDate = new Date();
         try {
