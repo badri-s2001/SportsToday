@@ -6,6 +6,6 @@
 - The brief news content can be viewed within the app itself.
 - Uses the JSON reference from NEWSAPI.
 
-Download Link : https://drive.google.com/file/d/1N6gQkgVSIdFRqCYknIEYNiM7rTqJWcUw/view?usp=sharing
+- Download Link : https://drive.google.com/file/d/1N6gQkgVSIdFRqCYknIEYNiM7rTqJWcUw/view?usp=sharing
 
-Github : https://github.com/badri-s2001/SportsToday
+
